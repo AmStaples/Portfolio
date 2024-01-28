@@ -1,11 +1,15 @@
 /*
 Author: Aaron Staples
-Date:1/21/2024
+Date:1/28/2024
 Description: Portfolio javascript page for learning.
 */
 
-let firstint = 1;
-firstint += 1;
-let uname = prompt("Enter your name");
-console.log("The firstint variable is set to " + firstint);
-console.log("The name variable is set to " + uname);
+let countup = 0;
+while (countup < 5)
+{
+    if ((countup % 2) == 1) 
+    {
+        console.log(countup);
+    }
+    countup++;
+}

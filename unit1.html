@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Unit 1</title>
+        <script src="unit1.js" defer></script>
+        <style>
+            #maindiv {
+                max-width: 349px;
+                margin:auto;
+                margin-top:100px;
+
+            }
+            body {
+                background-color:black;
+            }
+            #buttondiv {
+                max-width: 60%;
+                margin:auto;
+            }
+            #returntoindex {
+                color:white;
+            }
+            label {
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="maindiv">
+            <a href="index.html" id="returntoindex">Go back</a>
+            <img src="FzeroImg/falcon1.png" id="sprite"> <br>
+            <div id="buttondiv">
+                <button type="button" onclick="turnLeft()">Turn Left</button>
+                <button type="button" onclick="spin()">Spin</button>
+                <button type="button" onclick="turnRight()">Turn Right</button>
+                <label for="spincount">How many spins?</label><br>
+                <input type="text" id="spincount" name="spincount"><br>
+            </div>
+        </div>
+    </body>
+</html>

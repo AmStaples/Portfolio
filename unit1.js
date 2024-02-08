@@ -25,8 +25,7 @@ function FoxToggle () {
 
 function updateSprite () {
     //Updates the sprite on the page based on the number passed in.
-    //Github is being weird with the filenames... despite working when running from the computer, github returns a 404 when it tries to get the image.
-    sprite.src = "Fzeroimg/"+ Machine + direction + ".png";
+    sprite.src = "FzeroImg/"+ Machine + direction + ".png";
     if (flip == true) {
         sprite.style.transform = "scaleX(-1)";
     } else sprite.style.transform = "scaleX(1)";

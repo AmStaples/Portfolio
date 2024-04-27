@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="vr.js" defer></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-torus-knot color="grey" p="90" q="9" radius="8" radius-tubular="0.1" segments-radial="9" material="" geometry="" position="0 -4 0" rotation="90 0 0"></a-torus-knot>
+        <a-circle color="grey" radius="5" position="0 0 0" rotation="-90 0 0"></a-circle>
+        <a-torus-knot color="white" p="90" q="9" radius="110" radius-tubular="0.1" segments-radial="9" material="" geometry="" position="0 1.6 0" rotation="90 0 0"></a-torus-knot>
+        <a-torus-knot color="yellow" p="30" q="9" radius="45" radius-tubular="0.1" segments-radial="9" material="" geometry="" position="0 55 0" rotation="90 0 0"></a-torus-knot>
+        <a-entity id="PlayerCamera" camera="active = true" look-constrols wasd-controls="fly:true" qe-controls rotation-reader position="0 0 0"></a-entity>
+        <a-sky color="black"></a-sky>
+    </a-scene>
+  </body>
+</html>

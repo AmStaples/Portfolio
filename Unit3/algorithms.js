@@ -8,17 +8,6 @@ class Leaf {
         this.right = null;
     }
 }
-
-class Node {
-    constructor(value) {
-        this.value = value;
-        this.children = [];
-    }
-    addChild(value) {
-        this.children.push(new Node(value));
-        return this;
-    }
-}
 var breadthAr = [];
 var depthAr = [];
 var tree = new Leaf(" 1 ");
